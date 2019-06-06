@@ -10,7 +10,7 @@ data = [
 
 function makeAList(array) {
     for (let i of array) {
-        $("#contentList").append(`<li>&emsp;<a href=${i[0]}>${i[1]}${i[2]}</a></li>`);
+        $("#contentList").append(`<li>&emsp;<a target="_blank" href=${i[0]}>${i[1]}${i[2]}</a></li>`);
     }
 }
 
