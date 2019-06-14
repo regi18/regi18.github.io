@@ -4,7 +4,7 @@ data = [
     ["https://github.com/regi18/wpstool", "EXPLOIT", " / WPS TOOL"],
     ["https://github.com/regi18/hexascii2bin", "&emsp;&emsp;CTF", "&emsp;&emsp;&emsp;/ HEXASCII2BIN"],
     ["https://github.com/regi18/plotMouseMovements", "&emsp;&emsp;CTF", "&emsp;&emsp;&emsp;/ PLOT MOUSE MOVEMENTS"]
-    ["https://github.com/regi18/Espegi", "ARDUINO", "&emsp;/ SONOFF BLYNK"],
+    ["https://github.com/regi18/Espegi", "ARDUINO", "&emsp;/ ESPEGI"],
 ]
 
 
