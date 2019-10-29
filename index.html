@@ -2,82 +2,78 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>REGI18</title>
-    <link rel='icon' href="./static/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./static/style.css" media="screen">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    
+    <link rel='icon' href="./static/favicon.ico">
+
+    <link rel="stylesheet" href="./static/fonts.css">
+
+    <link rel="stylesheet" href="./static/normalize.css">
+
+    <link rel="stylesheet" href="./static/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="./static/main.css">
+
 </head>
 
 <body>
-    <div id="page">
-        <div id="content">
 
-            <!--HEADER SECTION -->
-            <div class="header">
-                <div class="logo">
-                    <pre><a class="node" href="http://regi18.ml/">
-&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9559; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9559; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9559; &#9608;&#9608;&#9559; &#9608;&#9608;&#9559; &#9608;&#9608;&#9608;&#9608;&#9608;&#9559; 
-&#9608;&#9608;&#9556;&#9552;&#9552;&#9608;&#9608;&#9559;&#9608;&#9608;&#9556;&#9552;&#9552;&#9552;&#9552;&#9565;&#9608;&#9608;&#9556;&#9552;&#9552;&#9552;&#9552;&#9565; &#9608;&#9608;&#9553;&#9608;&#9608;&#9608;&#9553;&#9608;&#9608;&#9556;&#9552;&#9552;&#9608;&#9608;&#9559;
-&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9556;&#9565;&#9608;&#9608;&#9608;&#9608;&#9608;&#9559;  &#9608;&#9608;&#9553;  &#9608;&#9608;&#9608;&#9559;&#9608;&#9608;&#9553;&#9562;&#9608;&#9608;&#9553;&#9562;&#9608;&#9608;&#9608;&#9608;&#9608;&#9556;&#9565;
-&#9608;&#9608;&#9556;&#9552;&#9552;&#9608;&#9608;&#9559;&#9608;&#9608;&#9556;&#9552;&#9552;&#9565;  &#9608;&#9608;&#9553;   &#9608;&#9608;&#9553;&#9608;&#9608;&#9553; &#9608;&#9608;&#9553;&#9608;&#9608;&#9556;&#9552;&#9552;&#9608;&#9608;&#9559;
-&#9608;&#9608;&#9553;  &#9608;&#9608;&#9553;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9559;&#9562;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9556;&#9565;&#9608;&#9608;&#9553; &#9608;&#9608;&#9553;&#9562;&#9608;&#9608;&#9608;&#9608;&#9608;&#9556;&#9565;
-&#9562;&#9552;&#9565;  &#9562;&#9552;&#9565;&#9562;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9565; &#9562;&#9552;&#9552;&#9552;&#9552;&#9552;&#9565; &#9562;&#9552;&#9565; &#9562;&#9552;&#9565; &#9562;&#9552;&#9552;&#9552;&#9552;&#9565; </a></pre>
-                </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="navigation">
+                <a href="https://github.com/regi18" class="logo">regi18</a>
 
-                <div class="navbar">
-
-                    <a onclick='filterList("")'>ALL</a>
-
-                    <span class="footdogs"> / </span>
-                    <a onclick='filterList("ARDUINO")'>ARDUINO</a>
-
-                    <span class="footdogs"> / </span>
-                    <a onclick='filterList("CRYPTO")'>CRYPTO</a>
-
-                    <span class="footdogs"> / </span>
-                    <a onclick='filterList("CTF")'>CTF</a>
-
-                    <span class="footdogs"> / </span>
-                    <a onclick='filterList("EXPLOIT")'>EXPLOIT</a>
-                    
-                    <span class="footdogs"> / </span>
-                    <a onclick='filterList("SCRIPTS")'>SCRIPTS</a>
-
-                </div>
-            </div>
-            <pre
-                class="header divider">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
-
-            <!--THE LIST -->
-
-            <div id="list">
-
-                <ul id="contentList">
+                <ul class="menu">
+                    <li class="menu__entry">
+                        <a onclick='filterList("")'>ALL</a>
+                    </li>
+                    <li class="menu__entry">
+                        <a onclick='filterList("ARDUINO")'>ARDUINO</a>
+                    </li>
+                    <li class="menu__entry">
+                        <a onclick='filterList("CRYPTO")'>CRYPTO</a>
+                    </li>
+                    <li class="menu__entry">
+                        <a onclick='filterList("CTF")'>CTF</a>
+                    </li>
+                    <li class="menu__entry">
+                        <a onclick='filterList("EXPLOIT")'>EXPLOIT</a>
+                    </li>
+                    <li class="menu__entry">
+                        <a href="#" onclick='filterList("SCRIPTS")'>SCRIPTS</a>
+                    </li>
                 </ul>
-
             </div>
 
-                <!--FOOTER SECTION -->
+            <ul class="social-links">
 
-                <div class="footer">
-                    <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
-                    <div class="filter">
-                        <a href="./index.html">HOME</a>
-
-                        <span class="footdogs">&#xD7;</span>
-                        <a href="./donate.html">DONATE</a>
-
-                        <span class="footdogs">&#xD7;</span>
-                        <a target="_blank" href="https://github.com/regi18">GITHUB</a>
-                    </div>
-
-                </div>
+                <a href="https://github.com/regi18" class="social-links__entry" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
 
 
-            </div>
+
+            </ul>
+        </header>
+
+        <h1 class="page-title">
+        </h1>
+
+        <ul class="list-posts" id="contentList">
+        </ul>
+
+
+        <div class="explore">
+            <div class="explore__devider">*****</div>
+            <div class="explore__label"><a onclick="showDonate()">Donate</a></div>
+            <div class="explore__label">Based on the <a href="https://github.com/kronik3r/daktilo">Daktilo</a> theme</div>
         </div>
+
+
+    </div>
+
 </body>
 
 <script src="./static/script.js"></script>
