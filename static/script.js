@@ -52,5 +52,3 @@ function showDonate() {
 
     return false;
 }
-
-document.addEventListener("load", filterList(""));
