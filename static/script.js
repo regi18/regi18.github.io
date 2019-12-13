@@ -6,6 +6,7 @@ data = [
     ["https://github.com/regi18/plotMouseMovements", "CTF", "PLOT MOUSE MOVEMENTS"],
     ["https://github.com/regi18/wpstool", "EXPLOIT", "WPS TOOL"],
     ["https://github.com/regi18/vuejs-generate-component", "SCRIPTS", "VUE.JS GENERATE COMPONENT"],
+    ["https://orariofacile.itismeucci.it/", "WEB", "ITIS MEUCCI TIMETABLE WEBSITE"],
 ]
 
 donateList = [
