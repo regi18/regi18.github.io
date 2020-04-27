@@ -1,12 +1,11 @@
 data = [
     ["https://orariofacile.itismeucci.it/", "WEB", "SCUOLAFACILE"],
-    ["https://github.com/regi18/Sonoff-Blynk", "ARDUINO", "SONOFF BLYNK"],
     ["https://github.com/regi18/Espegi", "ARDUINO", "ESPEGI"],
     ["https://github.com/regi18/offset-chiper", "CRYPTO", "OFFSET CHIPER"],
     ["https://github.com/regi18/hexascii2bin", "CTF", "HEXASCII2BIN"],
     ["https://github.com/regi18/plotMouseMovements", "CTF", "PLOT MOUSE MOVEMENTS"],
     ["https://github.com/regi18/wpstool", "EXPLOIT", "WPS TOOL"],
-    ["https://github.com/regi18/vuejs-generate-component", "SCRIPTS", "VUE.JS GENERATE COMPONENT"]
+    ["https://github.com/regi18/ISTAT-unita-amministrative-sql", "SCRIPTS", "ISTAT DATA PARSER"],
 ]
 
 donateList = [
