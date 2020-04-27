@@ -5,7 +5,7 @@ data = [
     ["https://github.com/regi18/hexascii2bin", "CTF", "HEXASCII2BIN"],
     ["https://github.com/regi18/plotMouseMovements", "CTF", "PLOT MOUSE MOVEMENTS"],
     ["https://github.com/regi18/wpstool", "EXPLOIT", "WPS TOOL"],
-    ["https://github.com/regi18/ISTAT-unita-amministrative-sql", "SCRIPTS", "ISTAT DATA PARSER"],
+    ["https://github.com/regi18/ISTAT-unita-amministrative-sql", "SCRIPTS", "ISTAT DATA PARSER"]
 ]
 
 donateList = [
