@@ -1,5 +1,5 @@
 data = [
-    ["https://orariofacile.itismeucci.it/", "WEB", "SCUOLAFACILE"]
+    ["https://orariofacile.itismeucci.it/", "WEB", "SCUOLAFACILE"],
     ["https://github.com/regi18/Sonoff-Blynk", "ARDUINO", "SONOFF BLYNK"],
     ["https://github.com/regi18/Espegi", "ARDUINO", "ESPEGI"],
     ["https://github.com/regi18/offset-chiper", "CRYPTO", "OFFSET CHIPER"],
